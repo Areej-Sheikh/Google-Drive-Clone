@@ -1,87 +1,86 @@
-<h1  align='center'> StoreIt - The only storage solution you need </h1>
-<h3 align="center">A Cloud Storage and File Sharing Platform</h3>
+<h1 align="center">📦 Store It</h1>
+<h3 align="center">The only storage solution you need — A Cloud Storage and File Sharing Platform</h3>
 
-<div>
-     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
-  </div>
+<p align="center">
+  <a href="https://google-drive-clone-zeta.vercel.app/">🌐 Live Demo</a>
+</p>
 
-## <a name="introduction">🤖 Introduction</a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white"/>
+</p>
 
-A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.
+---
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+**
-members. It's a place where people help each other out.
+## 🤖 Introduction
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+**Store It** is a storage management and file sharing platform that lets users effortlessly upload, organize, and share files.  
+Built with **Next.js 15**, **React 19**, **Appwrite**, and **TailwindCSS**, it provides a seamless experience for modern file management.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+---
 
-- React 19
-- Next.js 15
-- Appwrite
-- TailwindCSS
-- ShadCN
-- TypeScript
+## 🚀 Live Demo
 
-## <a name="features">🔋 Features</a>
+👉 Try the deployed app here: [Store It – Vercel Deployment](https://google-drive-clone-zeta.vercel.app/)  
 
-👉 **User Authentication with Appwrite**: Implement signup, login, and logout functionality using Appwrite's authentication system.
+---
 
-👉 **FIle Uploads**: Effortlessly upload a variety of file types, including documents, images, videos, and audio, ensuring all your important data.
+## 📸 Screenshots
 
-👉 **View and Manage Files**: Users can browse through their uploaded files stored in Appwrite storage, view on a new tab, rename file or delete.
+<p align="center">
+  <img src="Store-It.png" width="700" alt="Dashboard Screenshot"/>
+</p>
 
-👉 **Download Files**: Users can download their uploaded files giving them instant access to essential documents.
+<p align="center">
+  <img src="upload.png" width="700" alt="upload"/>
+</p>
 
-👉 **File Sharing**: Users can easily share their uploaded files with others, enabling collaboration and easy access to important content.
 
-👉 **Dashboard**: Gain insights at a glance with a dynamic dashboard that showcases total and consumed storage, recent uploads, and a summary of files grouped by type.
+---
+## 🎥 Tutorial Video
 
-👉 **Global Search**: Users can quickly find files and shared content across the platform with a robust global search feature.
+<video src="assets/Store-It-Tutorial.mp4" controls width="700"  autoplay
+       muted
+       loop
+       controls
+       playsinline></video>
 
-👉 **Sorting Options**: Organize files efficiently by sorting them by date, name, or size, making file management a breeze.
 
-👉 **Modern Responsive Design**: A fresh and minimalist UI that emphasizes usability, ensuring a clean aesthetic across all devices.
+---
+## ⚙️ Tech Stack
 
-and many more, including the latest **React 19**, **Next.js 15** and **Appwrite** features alongside code architecture and
-reusability
+- ⚛️ React 19  
+- ⬛ Next.js 15  
+- 🟣 Appwrite (Auth, DB, Storage)  
+- 🎨 TailwindCSS  
+- 🧩 ShadCN  
+- 🔵 TypeScript  
 
-## <a name="quick-start">🤸 Quick Start</a>
+---
 
-Follow these steps to set up the project locally on your machine.
+## 🔋 Features
 
-**Installation**
+- 🔐 **User Authentication with Appwrite** – Signup, login, and logout  
+- 📂 **File Uploads** – Upload docs, images, videos, and audio  
+- 👀 **View & Manage Files** – Rename, delete, preview files  
+- ⬇️ **Download Files** – Instant access to stored files  
+- 🤝 **File Sharing** – Share files with others seamlessly  
+- 📊 **Dashboard Insights** – Storage usage, recent uploads, file types summary  
+- 🔍 **Global Search** – Quickly find files and shared content  
+- 🗂️ **Sorting Options** – By date, name, or size  
+- 📱 **Responsive Design** – Minimal, clean UI across all devices  
 
-Install the project dependencies using npm:
+---
+
+## 🤸 Quick Start
+
+Follow these steps to set up the project locally.
+
+### 1️⃣ Clone & Install
 
 ```bash
+git clone https://github.com/username/store-it.git
+cd store-it
 npm install
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env.local` in the root of your project and add the following content:
-
-```env
-NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
-NEXT_PUBLIC_APPWRITE_PROJECT=""
-NEXT_PUBLIC_APPWRITE_DATABASE=""
-NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=""
-NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=""
-NEXT_PUBLIC_APPWRITE_BUCKET=""
-NEXT_APPWRITE_KEY=""
-```
-
-Replace the values with your actual Appwrite credentials. You can obtain these credentials by signing up &
-creating a new project on the [Appwrite website].
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
