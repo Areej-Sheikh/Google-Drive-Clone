@@ -26,17 +26,6 @@ Built with **Next.js 15**, **React 19**, **Appwrite**, and **TailwindCSS**, it p
 👉 Try the deployed app here: [Store It – Vercel Deployment](https://google-drive-clone-zeta.vercel.app/)  
 
 ---
-## 🎥 Tutorial Video
-
-<video src="Store-It-Tutorial.mp4" controls width="700"  autoplay
-       muted
-       loop
-       controls
-       playsinline
-       ></video>
-
-
----
 
 ## 📸 Screenshots
 
